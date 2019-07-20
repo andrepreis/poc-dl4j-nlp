@@ -26,9 +26,9 @@ public class AppTest extends TestCase{
     public void testaGeracaoModelo() {
     	DeepModelUtils deepModel = null;
     	
-    	String modelPath="C:\\Workspace\\Outros\\poc-dl4j-nlp\\resources\\";
+    	String modelPath="/home/andre-reis/git/poc-dl4j-nlp/resources";
     	String modelName= String.valueOf(new Date().getTime()) + ".zip";
-    	String trainingFiles="C:\\Workspace\\Outros\\poc-dl4j-nlp\\resources\\celulares";
+    	String trainingFiles="/home/andre-reis/git/poc-dl4j-nlp/resources/celulares";
     	String nbrEpochs="5";
     	
 		try {
